@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>meu projeto</title>
 </head>
 <body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a href="#" class="navbar-brand">
+            <img src="/img/globallabs.png" alt="icone-superior" class="img-fluid">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="textoNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#quemsomos">Quem Somos <span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#parceiros"> Parceiros </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos"> Serviços </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <section id="quemsomos">
+        <div class="container-fluid quem-somos text-center margin">
+            <h3> Quem somos</h3>
+            <img class="rounded-circle" src="/img/img-1.jpg" alt="imagem-pessoa" width="400" height="400">
+            <h3 class="mt-2"> Somos um time legal e divertido </h3>
+        </div>
+    </section>  
+
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3 class="margin"> Parceiros </h3>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="/img/digital-one.png" width="100%" alt="digital-one">
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="/img/digital-one.png" width="100%" alt="digital-one">
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="/img/digital-one.png" width="100%" alt="digital-one">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="servicos"> 
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin"> Serviços </h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <img src="img/img-1.jpg" width="100%" alt="">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <img src="/img/img-3.jpg" width="100%"  alt="">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <img src="/img/img-3.jpg" width="100%"  alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
+    <footer class="container-fluid text-center bg-footer margin">
+        <p> Desenvolvido por Daiane Sousa </p>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>
